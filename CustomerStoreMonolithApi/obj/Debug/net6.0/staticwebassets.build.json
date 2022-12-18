@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wMrUxyn1CiqO6RcoFtHp16Smc2GO/vaXdLG2yUKpQJQ=",
+  "Source": "CustomerStoreMonolithApi",
+  "BasePath": "_content/CustomerStoreMonolithApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
