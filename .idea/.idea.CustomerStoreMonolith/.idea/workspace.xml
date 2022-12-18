@@ -13,8 +13,30 @@
     <projectFile profileName="WebApplication2">WebApplication2/WebApplication2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c615dc9-cb1b-458c-bf49-4ade44180135" name="Changes" comment="v1 before IPC adapter introduction">
-      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolith/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolith/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="2c615dc9-cb1b-458c-bf49-4ade44180135" name="Changes" comment="initial push">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CustomerStoreMonolith/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CustomerStoreMonolith/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CustomerStoreMonolith/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CustomerStoreMonolith/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/Controllers/CommonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/Controllers/CommonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/Services/CommonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/Services/CommonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/Services/ICommonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/Services/ICommonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/bin/Debug/net6.0/CommonService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/bin/Debug/net6.0/CommonService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/bin/Debug/net6.0/CommonService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/bin/Debug/net6.0/CommonService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/CommonService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/CommonService.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/CommonService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/CommonService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/CommonService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/CommonService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/ref/CommonService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/ref/CommonService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/refint/CommonService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/obj/Debug/net6.0/refint/CommonService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonService/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolith.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolith.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/Controllers/CustomersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/Controllers/CustomersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/bin/Debug/net6.0/CustomerStoreMonolithApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/bin/Debug/net6.0/CustomerStoreMonolithApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/bin/Debug/net6.0/CustomerStoreMonolithApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/bin/Debug/net6.0/CustomerStoreMonolithApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/CustomerStoreMonolithApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/CustomerStoreMonolithApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/CustomerStoreMonolithApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/CustomerStoreMonolithApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/ref/CustomerStoreMonolithApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/ref/CustomerStoreMonolithApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/refint/CustomerStoreMonolithApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/Debug/net6.0/refint/CustomerStoreMonolithApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3e0a8c0e6a0c475e8540b56655fe181f19488/b5/7b567ba9/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ba3f23566a5654bfd8c7a49a51dc813be89635b01cf819485c5a61f61e4f53/TimeSpanParse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/faf4a4b37056302738a46865827c3d2d3b6b1b977603a3932b0cd749921118/Controller.cs" root0="SKIP_HIGHLIGHTING" />
@@ -213,7 +236,7 @@
       <updated>1670682936622</updated>
       <workItem from="1670682940244" duration="9211000" />
       <workItem from="1670853663113" duration="6930000" />
-      <workItem from="1671293896541" duration="6216000" />
+      <workItem from="1671293896541" duration="7689000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1670682980088</created>
@@ -243,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671402519393</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial push">
+      <created>1671403135687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671403135687</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial push">
+      <created>1671403152973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671403152973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +303,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial push" />
     <MESSAGE value="v1 before IPC adapter introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1 before IPC adapter introduction" />
+    <MESSAGE value="initial push" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial push" />
   </component>
 </project>

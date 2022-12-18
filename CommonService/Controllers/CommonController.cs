@@ -15,7 +15,7 @@ public class CommonController : Controller
     }
 
     [HttpPost]
-    public async Task<TimeSpan> CalculateAge([FromBody] CalculateAgeRequestModel model)
+    public async Task<int> CalculateAge([FromBody] CalculateAgeRequestModel model)
     {
         return await _commonService.CalculateAge(model.Start, model.End);
     }

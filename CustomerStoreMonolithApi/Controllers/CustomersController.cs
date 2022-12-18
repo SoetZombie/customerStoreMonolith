@@ -23,19 +23,15 @@ public class CustomersController : Controller
         foreach (var car in data?.Cars)
         {
             var client = new HttpClient();
-            var request = JsonConvert.SerializeObject(new { Start = car.Year, End = DateTime.Now.Year });
-            var content = new StringContent(request.ToString() ?? "", Encoding.UTF8, "application/json");
+            var request = JsonConvert.SerializeObject(new { Start = new DateTime(car.Year, 1, 1), End = DateTime.Now });
+            var content = new StringContent(request ?? "", Encoding.UTF8, "application/json");
             var url = "https://localhost:44397/common";
         
             var result = client.PostAsync(url, content).Result;
             var response = result.Content.ReadAsStringAsync().Result;
-            var age = TimeSpan.Parse(response);
-            car.CarAge = age;
+            car.CarAge = response;
         }
-        
-        
 
-  
         return data;
     }
 
@@ -64,7 +60,7 @@ public class CustomersController : Controller
         // Navigation property for the car's customer
         public virtual Customer Customer { get; set; }
 
-        [NotMapped] public TimeSpan CarAge { get; set; }
+        [NotMapped] public string CarAge { get; set; }
     }
 
     

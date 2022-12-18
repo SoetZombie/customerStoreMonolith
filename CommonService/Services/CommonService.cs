@@ -2,8 +2,8 @@ namespace CommonService.Services;
 
 public class CommonService: ICommonService
 {
-    public Task<TimeSpan> CalculateAge(DateTime start, DateTime end)
+    public Task<int> CalculateAge(DateTime start, DateTime end)
     {
-        return Task.FromResult(start - end);
+        return Task.FromResult((end - start).Days);
     }
 }
