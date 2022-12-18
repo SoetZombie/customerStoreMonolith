@@ -1,9 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CustomerStoreMonolith;
 
+[Route("customers")]
 public class CustomerController : Controller
 {
     // GET

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0exkzB6p8VnZkSBnp1r05RnlOiB/WssAyPRvSNLiIfg=",
+  "Source": "CustomerStoreMonolith",
+  "BasePath": "_content/CustomerStoreMonolith",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
