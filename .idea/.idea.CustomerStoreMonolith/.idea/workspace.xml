@@ -7,6 +7,9 @@
     <projectFile profileName="IIS Express">CustomerService/CustomerService.csproj</projectFile>
     <projectFile profileName="CustomerStoreMonolith">CustomerStoreMonolith/CustomerStoreMonolith.csproj</projectFile>
     <projectFile profileName="IIS Express">CustomerStoreMonolith/CustomerStoreMonolith.csproj</projectFile>
+    <projectFile profileName="CustomerStoreMonolithApi">CustomerStoreMonolithApi - Copy/CustomerStoreMicroservicesApi.csproj</projectFile>
+    <projectFile profileName="IIS Express">CustomerStoreMonolithApi - Copy/CustomerStoreMicroservicesApi.csproj</projectFile>
+    <projectFile>CustomerStoreMonolithApi - Copy/CustomerStoreMonolithApi.csproj</projectFile>
     <projectFile profileName="CustomerStoreMonolithApi">CustomerStoreMonolithApi/CustomerStoreMonolithApi.csproj</projectFile>
     <projectFile profileName="IIS Express">CustomerStoreMonolithApi/CustomerStoreMonolithApi.csproj</projectFile>
     <projectFile profileName="IIS Express">WebApplication1/WebApplication1.csproj</projectFile>
@@ -15,20 +18,15 @@
     <projectFile profileName="WebApplication2">WebApplication2/WebApplication2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c615dc9-cb1b-458c-bf49-4ade44180135" name="Changes" comment="Transformed">
-      <change afterPath="$PROJECT_DIR$/CustomerService/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerService/Controllers/CustomersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerService/CustomerCarContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerService/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerService/Models/Car.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerService/Models/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerService/Services/CustomerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomerService/Services/ICustomerService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CustomerStoreMonolith/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CustomerStoreMonolith/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CommonService/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonServiceTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CommonServiceTests/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="2c615dc9-cb1b-458c-bf49-4ade44180135" name="Changes" comment="feat: finalized code">
       <change beforePath="$PROJECT_DIR$/CustomerStoreMonolith.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolith.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/CustomerStoreMicroservicesApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/CustomerStoreMicroserviceApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/bin/Debug/net6.0/CustomerStoreMicroservicesApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/bin/Debug/net6.0/CustomerStoreMicroserviceApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/bin/Debug/net6.0/CustomerStoreMicroservicesApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/bin/Debug/net6.0/CustomerStoreMicroserviceApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +34,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3e0a8c0e6a0c475e8540b56655fe181f19488/b5/7b567ba9/WebApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/194db76c96184f90bed00173798e03984913ac3c2f41fca529b842ae1aa99b/SqlServerDbContextOptionsBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ba3f23566a5654bfd8c7a49a51dc813be89635b01cf819485c5a61f61e4f53/TimeSpanParse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/faf4a4b37056302738a46865827c3d2d3b6b1b977603a3932b0cd749921118/Controller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Lukw/RiderProjects/CustomerStoreMonolith/CommonService/Controllers/CommonController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CommonServiceTests/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CustomerService/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Lukw/RiderProjects/CustomerStoreMonolith/CustomerStoreMonolith/CustomerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Lukw/RiderProjects/CustomerStoreMonolith/CustomerStoreMonolith/CustomerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CustomerStoreMonolith/CustomerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CustomerStoreMonolith/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,21 +52,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CommonService: IIS Express">
+    <configuration name="CustomerStoreMonolithApi" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/CustomerStoreMicroserviceApi.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="CommonService" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CommonService/CommonService.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -119,6 +135,36 @@
     </configuration>
     <configuration name="CustomerService: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CustomerService/CustomerService.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="CustomerStoreMicroservicesApi: CustomerStoreMonolithApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/CustomerStoreMicroserviceApi.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="CustomerStoreMonolithApi" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="CustomerStoreMicroservicesApi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CustomerStoreMonolithApi - Copy/CustomerStoreMicroserviceApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -263,7 +309,8 @@
       <updated>1670682936622</updated>
       <workItem from="1670682940244" duration="9211000" />
       <workItem from="1670853663113" duration="6930000" />
-      <workItem from="1671293896541" duration="13766000" />
+      <workItem from="1671293896541" duration="17052000" />
+      <workItem from="1677510570924" duration="3223000" />
     </task>
     <task id="LOCAL-00001" summary="Initial push">
       <created>1670682980088</created>
@@ -321,7 +368,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671404915005</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: customers absctracted out">
+      <created>1672672073433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672672073433</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: finalized code">
+      <created>1677530799918</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677530799918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +407,8 @@
     <MESSAGE value="v1 before IPC adapter introduction" />
     <MESSAGE value="initial push" />
     <MESSAGE value="Transformed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transformed" />
+    <MESSAGE value="feat: customers absctracted out" />
+    <MESSAGE value="feat: finalized code" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finalized code" />
   </component>
 </project>

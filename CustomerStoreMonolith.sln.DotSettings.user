@@ -7,6 +7,8 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6aa6ecdf_002D0b2c_002D4ca2_002Da1fe_002D2a528f06dc86/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::64CF8DD5-D62D-4B00-97CC-65AEF2C5A5A2::net6.0::CommonServiceTests.Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::82C2716D-75FC-46B3-93D5-6965B6386555::net6.0::CustomerServiceTests.Tests.Get_Customer_Returns_Correct_Data&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::82C2716D-75FC-46B3-93D5-6965B6386555::net6.0::CustomerServiceTests.Tests.Get_Customer_Returns_Null_When_Customer_Does_Not_Exist&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=4debb7a2_002Ddd82_002D43e4_002D9df7_002D464f9252f421_0023CustomerStoreMonolith/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
+	</wpf:ResourceDictionary>

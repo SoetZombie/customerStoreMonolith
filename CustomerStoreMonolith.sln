@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerStoreMonolith", "CustomerStoreMonolith\CustomerStoreMonolith.csproj", "{4DEBB7A2-DD82-43E4-9DF7-464F9252F421}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerStoreMonolithApi", "CustomerStoreMonolithApi\CustomerStoreMonolithApi.csproj", "{7DF5EBEC-2DCE-4B02-A99B-2F3D7F1D47ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonService", "CommonService\CommonService.csproj", "{8B0AEDBF-AEFD-437D-AD34-1AB4CE4022BC}"
@@ -10,16 +8,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonServiceTests", "Commo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{51A2C969-468C-43A6-9C77-3109495E8DE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerServiceTests", "CustomerServiceTests\CustomerServiceTests.csproj", "{82C2716D-75FC-46B3-93D5-6965B6386555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerStoreMicroserviceApi", "CustomerStoreMonolithApi - Copy\CustomerStoreMicroserviceApi.csproj", "{4AD624D6-4D52-47A9-AFBB-705437581B6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4DEBB7A2-DD82-43E4-9DF7-464F9252F421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DEBB7A2-DD82-43E4-9DF7-464F9252F421}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DEBB7A2-DD82-43E4-9DF7-464F9252F421}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DEBB7A2-DD82-43E4-9DF7-464F9252F421}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7DF5EBEC-2DCE-4B02-A99B-2F3D7F1D47ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7DF5EBEC-2DCE-4B02-A99B-2F3D7F1D47ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF5EBEC-2DCE-4B02-A99B-2F3D7F1D47ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +34,13 @@ Global
 		{51A2C969-468C-43A6-9C77-3109495E8DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A2C969-468C-43A6-9C77-3109495E8DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A2C969-468C-43A6-9C77-3109495E8DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C2716D-75FC-46B3-93D5-6965B6386555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C2716D-75FC-46B3-93D5-6965B6386555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C2716D-75FC-46B3-93D5-6965B6386555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C2716D-75FC-46B3-93D5-6965B6386555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD624D6-4D52-47A9-AFBB-705437581B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD624D6-4D52-47A9-AFBB-705437581B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD624D6-4D52-47A9-AFBB-705437581B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD624D6-4D52-47A9-AFBB-705437581B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

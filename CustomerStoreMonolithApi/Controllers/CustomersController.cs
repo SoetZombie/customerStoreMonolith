@@ -16,23 +16,9 @@ public class CustomersController : Controller
     public ActionResult<Customer?> GetCustomerData([FromRoute]int id)
     {
         var context = new CustomerCarContext();
-        var data = context.Customers
-            .Include(x => x.Cars)
-            .FirstOrDefault(x => x.Id == id);
-
-        foreach (var car in data?.Cars)
-        {
-            var client = new HttpClient();
-            var request = JsonConvert.SerializeObject(new { Start = new DateTime(car.Year, 1, 1), End = DateTime.Now });
-            var content = new StringContent(request ?? "", Encoding.UTF8, "application/json");
-            var url = "https://localhost:44397/common";
+        var user = context.Customers.Include(x => x.Cars).FirstOrDefault(x => x.Id == id);
         
-            var result = client.PostAsync(url, content).Result;
-            var response = result.Content.ReadAsStringAsync().Result;
-            car.CarAge = response;
-        }
-
-        return data;
+        return Json(user);
     }
 
     public class Customer
@@ -60,15 +46,15 @@ public class CustomersController : Controller
         // Navigation property for the car's customer
         public virtual Customer Customer { get; set; }
 
-        [NotMapped] public string CarAge { get; set; }
+        [NotMapped] public TimeSpan CarAge => DateTime.UtcNow - this.FirstRegistration;
     }
 
     
     // Define the database context
     public class CustomerCarContext : DbContext
     {
-        public DbSet<CustomersController.Customer> Customers { get; set; }
-        public DbSet<CustomersController.Car> Cars { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Car> Cars { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
